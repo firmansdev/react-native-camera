@@ -1,7 +1,14 @@
 {
-  "name": "react-native-camera",
-  "description": "A Camera component for React Native. Also reads barcodes.",
-  "version": "4.2.1",
+  "name": "@lxoref2/react-native-camera",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oref/lx-react-native-camera-kit"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "description": "A Camera component for React Native. Also reads barcodes. (original version 4.2.1)",
+  "version": "1.0.0",
   "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
   "collective": {
     "type": "opencollective",
@@ -67,10 +74,6 @@
   "main": "src/index.js",
   "nativePackage": true,
   "pre-commit": "lint:staged",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/react-native-community/react-native-camera.git"
-  },
   "scripts": {
     "commit": "git-cz",
     "commitmsg": "commitlint -e $GIT_PARAMS",
